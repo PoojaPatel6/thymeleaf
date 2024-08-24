@@ -64,13 +64,13 @@ public class UserController {
 	@GetMapping("/users")
 	public String users(Model model) {
 	    
-	    User admin = new User("Admin", "admin@gmail.com", "ADMIN", "Male");
+	    User shiva = new User("Shiva", "shiva@gmail.com", "ADMIN", "Male");
 	    User aman = new User("Aman", "aman@gmail.com", "USER", "Male");
 	    User divya = new User("Divya", "divya@gmail.com", "USER", "Female");
 
 	   
 	    List<User>users = new ArrayList<>();
-	    users.add(admin);
+	    users.add(shiva);
 	    users.add(aman);
 	    users.add(divya);
 
