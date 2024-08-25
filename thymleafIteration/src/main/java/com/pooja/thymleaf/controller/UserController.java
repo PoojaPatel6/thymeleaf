@@ -67,12 +67,14 @@ public class UserController {
 	    User shiva = new User("Shiva", "shiva@gmail.com", "ADMIN", "Male");
 	    User aman = new User("Aman", "aman@gmail.com", "USER", "Male");
 	    User divya = new User("Divya", "divya@gmail.com", "USER", "Female");
+            User harsh = new User("Harsh", "harsh@gmail.com", "USER", "Male");
 
 	   
 	    List<User>users = new ArrayList<>();
 	    users.add(shiva);
 	    users.add(aman);
 	    users.add(divya);
+	    users.add(harsh);
 
 	    model.addAttribute("users", users);
 
