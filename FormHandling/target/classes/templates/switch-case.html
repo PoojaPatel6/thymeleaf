@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+>
+
+<head>
+<title>switch-case condition</title>
+</head>
+<body>
+<h1>Switch Case Thymeleaf Attribute</h1>
+<h3 th:text="${user.name}"></h3>
+
+<div th:switch = "${user.role}">
+<p th:case = "'ADMIN'">This User is a Admin User</p>
+<p th:case = "'USER'">This USer is A Normal User</p>
+<p th:case = "*"> This User is Something else</p>
+
+
+</div>
+</body>
+</html>
