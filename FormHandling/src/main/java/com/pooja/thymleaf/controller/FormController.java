@@ -22,7 +22,7 @@ public class FormController {
 		UserForm userForm = new UserForm();
 		model.addAttribute("userForm", userForm);
 		
-		List<String> listProfession = Arrays.asList("Developer","Engineer", "HR");
+		List<String> listProfession = Arrays.asList("Developer","Engineer", "HR","Architect");
 		model.addAttribute("listProfession",listProfession);
 		
 		return "register-form";
